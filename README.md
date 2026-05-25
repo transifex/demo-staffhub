@@ -47,11 +47,20 @@ ngrok http 5173
 
 ## 💎 Adding "Rigi Tokens" (Translation Files)
 
-The app is already configured to support **Rigi Tokens**. You don't need to change any code!
+The app is already configured to support **Rigi Tokens**. To use your own tokenized files, follow these steps:
 
-1. Locate your tokenized JSON file (it should be named `rigi.json`).
-2. **Replace the existing file** at `src/locales/rigi.json` with your new file.
-3. That's it! In the app, go to **Settings > Language** and select **Rigi Tokens** to see your changes.
+### 1. Preparation (in Transifex & Rigi)
+Before you can use the app, you need to generate your tokenized file:
+1. **Upload Source File:** Download the `src/locales/en.json` file from this repository and upload it as the source file to a new project in **Transifex**.
+2. **Rigi Project Setup:** Create a project in **Rigi**. **Important:** Ensure the Rigi project has the exact same target languages as your Transifex project.
+3. **Generate API Token:** In Rigi, create an API token with "Tokenize strings" authorization.
+4. **Connect to Transifex:** In your Transifex project settings, add the Rigi token to enable the integration.
+5. **Sync for Signatures:** Run the synchronization in Transifex. This sends the strings to Rigi to generate unique signatures (no state is stored in Rigi).
+6. **Download Tokenized File:** Download the resulting tokenized file **from Transifex** (save it as `rigi.json`).
+
+### 2. Add the File to the App
+1. **Replace the existing file** at `src/locales/rigi.json` in this project with your newly downloaded file.
+2. That's it! In the app, go to **Settings > Language** and select **Rigi Tokens** to see your changes.
 
 ---
 
