@@ -49,11 +49,9 @@ ngrok http 5173
 
 The app is already configured to support **Rigi Tokens**. You don't need to change any code!
 
-1. Locate your tokenized JSON file.
-2. Open the file `src/locales/rigi.json` in this project.
-3. **Replace everything** inside that file with your own tokenized data.
-4. Save the file.
-5. In the app, go to **Settings > Language** and select **Rigi Tokens**.
+1. Locate your tokenized JSON file (it should be named `rigi.json`).
+2. **Replace the existing file** at `src/locales/rigi.json` with your new file.
+3. That's it! In the app, go to **Settings > Language** and select **Rigi Tokens** to see your changes.
 
 ---
 
