@@ -1,0 +1,317 @@
+{
+  "app": {
+    "name": "StaffHub",
+    "tagline": "Personalverwaltungssystem"
+  },
+  "nav": {
+    "dashboard": "Übersicht",
+    "employees": "Mitarbeiter",
+    "departments": "Abteilungen",
+    "leave": "Urlaubsanträge",
+    "payroll": "Gehaltsabrechnung",
+    "recruitment": "Personalbeschaffung",
+    "settings": "Einstellungen"
+  },
+  "header": {
+    "searchPlaceholder": "Mitarbeiter, Abteilungen suchen...",
+    "notifications": "Benachrichtigungen"
+  },
+  "user": {
+    "role": {
+      "hrManager": "Personalleiter",
+      "admin": "Administrator",
+      "employee": "Mitarbeiter"
+    }
+  },
+  "dashboard": {
+    "title": "Übersicht",
+    "welcome": "Willkommen zurück, {name}. Das passiert heute.",
+    "stats": {
+      "totalEmployees": "Gesamtzahl Mitarbeiter",
+      "onLeaveToday": "Heute im Urlaub",
+      "openPositions": "Offene Stellen",
+      "upcomingReviews": "Anstehende Bewertungen",
+      "thisMonth": "+{count} diesen Monat",
+      "pendingApproval": "{count} ausstehende Genehmigung",
+      "newThisWeek": "{count} neu diese Woche",
+      "nextDays": "Nächste {count} Tage"
+    },
+    "recentActivity": {
+      "title": "Letzte Aktivitäten",
+      "viewAll": "Alle anzeigen",
+      "submittedLeave": "{name} hat einen Urlaubsantrag für {dates} eingereicht",
+      "completedOnboarding": "{name} hat die Einarbeitungscheckliste abgeschlossen",
+      "updatedContact": "{name} hat die Notfallkontaktdaten aktualisiert",
+      "wasPromoted": "{name} wurde zum {position} befördert",
+      "hoursAgo": "Vor {count} Stunden",
+      "yesterday": "Gestern",
+      "daysAgo": "Vor {count} Tagen"
+    },
+    "upcomingEvents": {
+      "title": "Bevorstehende Ereignisse",
+      "viewCalendar": "Kalender anzeigen"
+    },
+    "pendingApprovals": {
+      "title": "Ausstehende Genehmigungen",
+      "items": "{count} Elemente",
+      "columns": {
+        "employee": "Mitarbeiter",
+        "requestType": "Antragsart",
+        "details": "Details",
+        "submitted": "Eingereicht",
+        "actions": "Aktionen"
+      }
+    }
+  },
+  "employees": {
+    "title": "Mitarbeiter",
+    "addEmployee": "+ Mitarbeiter hinzufügen",
+    "filters": {
+      "department": "Abteilung",
+      "allDepartments": "Alle Abteilungen",
+      "status": "Status",
+      "allStatus": "Alle Status",
+      "employmentType": "Beschäftigungsart",
+      "allTypes": "Alle Arten",
+      "fullTime": "Vollzeit",
+      "partTime": "Teilzeit",
+      "contract": "Vertrag"
+    },
+    "columns": {
+      "employee": "Mitarbeiter",
+      "employeeId": "Mitarbeiter-ID",
+      "department": "Abteilung",
+      "position": "Position",
+      "status": "Status",
+      "startDate": "Startdatum",
+      "actions": "Aktionen"
+    },
+    "status": {
+      "active": "Aktiv",
+      "onLeave": "Im Urlaub",
+      "remote": "Remote",
+      "terminated": "Beendet"
+    },
+    "pagination": {
+      "showing": "Zeige {from}-{to} von {total} Mitarbeitern"
+    }
+  },
+  "departments": {
+    "title": "Abteilungen",
+    "addDepartment": "+ Abteilung hinzufügen",
+    "stats": {
+      "employees": "Mitarbeiter",
+      "teams": "Teams",
+      "openRoles": "Offene Stellen"
+    },
+    "names": {
+      "engineering": "Entwicklung",
+      "sales": "Vertrieb",
+      "marketing": "Marketing",
+      "finance": "Finanzen",
+      "humanResources": "Personalwesen",
+      "operations": "Betrieb",
+      "product": "Produkt",
+      "customerSupport": "Kundensupport"
+    },
+    "titles": {
+      "vpEngineering": "VP Entwicklung",
+      "salesDirector": "Vertriebsleiter",
+      "marketingDirector": "Marketingleiter",
+      "cfo": "Finanzvorstand",
+      "hrDirector": "Personalleiter",
+      "coo": "Betriebsleiter"
+    }
+  },
+  "leave": {
+    "title": "Urlaubsanträge",
+    "newRequest": "+ Neuer Antrag",
+    "summary": {
+      "pendingRequests": "Ausstehende Anträge",
+      "awaitingApproval": "Warten auf Ihre Genehmigung",
+      "onLeaveToday": "Heute im Urlaub",
+      "acrossDepartments": "In allen Abteilungen",
+      "upcomingLeave": "Bevorstehender Urlaub",
+      "nextDays": "Nächste {count} Tage"
+    },
+    "allRequests": "Alle Urlaubsanträge",
+    "tabs": {
+      "all": "Alle",
+      "pending": "Ausstehend",
+      "approved": "Genehmigt",
+      "rejected": "Abgelehnt"
+    },
+    "columns": {
+      "employee": "Mitarbeiter",
+      "leaveType": "Urlaubsart",
+      "startDate": "Startdatum",
+      "endDate": "Enddatum",
+      "duration": "Dauer",
+      "status": "Status",
+      "actions": "Aktionen"
+    },
+    "types": {
+      "annual": "Jahresurlaub",
+      "sick": "Krankenurlaub",
+      "personal": "Persönlicher Urlaub",
+      "parental": "Elternzeit",
+      "unpaid": "Unbezahlter Urlaub"
+    },
+    "duration": {
+      "day": "{count} Tag",
+      "days": "{count} Tage"
+    },
+    "status": {
+      "pending": "Ausstehend",
+      "approved": "Genehmigt",
+      "rejected": "Abgelehnt"
+    }
+  },
+  "payroll": {
+    "title": "Gehaltsabrechnung",
+    "runPayroll": "Abrechnung starten",
+    "summary": {
+      "currentPeriod": "Aktuelle Abrechnungsperiode",
+      "totalPayroll": "Gesamtgehalt",
+      "nextPayDate": "Nächster Zahltag",
+      "directDeposit": "Überweisung",
+      "fromLastPeriod": "{change} zur Vorperiode"
+    },
+    "history": {
+      "title": "Abrechnungshistorie",
+      "exportReport": "Bericht exportieren"
+    },
+    "columns": {
+      "payPeriod": "Abrechnungsperiode",
+      "payDate": "Zahltag",
+      "employeesPaid": "Bezahlte Mitarbeiter",
+      "grossPay": "Bruttogehalt",
+      "deductions": "Abzüge",
+      "netPay": "Nettogehalt",
+      "status": "Status"
+    },
+    "status": {
+      "processing": "In Bearbeitung",
+      "completed": "Abgeschlossen",
+      "scheduled": "Geplant"
+    }
+  },
+  "recruitment": {
+    "title": "Personalbeschaffung",
+    "postNewJob": "+ Neue Stelle ausschreiben",
+    "stats": {
+      "openPositions": "Offene Stellen",
+      "totalApplications": "Bewerbungen gesamt",
+      "interviewsScheduled": "Geplante Interviews",
+      "offersExtended": "Ausgesprochene Angebote"
+    },
+    "openPositions": "Offene Stellen",
+    "columns": {
+      "position": "Position",
+      "department": "Abteilung",
+      "location": "Standort",
+      "posted": "Veröffentlicht",
+      "applications": "Bewerbungen",
+      "status": "Status",
+      "actions": "Aktionen"
+    },
+    "status": {
+      "active": "Aktiv",
+      "interviewing": "Im Interview",
+      "closed": "Geschlossen",
+      "onHold": "Pausiert"
+    }
+  },
+  "settings": {
+    "title": "Einstellungen",
+    "nav": {
+      "companyProfile": "Unternehmensprofil",
+      "userPreferences": "Benutzereinstellungen",
+      "notifications": "Benachrichtigungen",
+      "security": "Sicherheit",
+      "integrations": "Integrationen",
+      "billing": "Abrechnung"
+    },
+    "company": {
+      "title": "Unternehmensinformationen",
+      "name": "Unternehmensname",
+      "industry": "Branche",
+      "size": "Unternehmensgröße",
+      "industries": {
+        "technology": "Technologie",
+        "healthcare": "Gesundheitswesen",
+        "finance": "Finanzen",
+        "manufacturing": "Fertigung"
+      },
+      "sizes": {
+        "small": "1-50 Mitarbeiter",
+        "medium": "51-200 Mitarbeiter",
+        "large": "201-500 Mitarbeiter",
+        "enterprise": "501-1000 Mitarbeiter",
+        "corporate": "1000+ Mitarbeiter"
+      }
+    },
+    "regional": {
+      "title": "Regionale Einstellungen",
+      "timezone": "Zeitzone",
+      "dateFormat": "Datumsformat",
+      "currency": "Währung",
+      "language": "Sprache"
+    },
+    "actions": {
+      "cancel": "Abbrechen",
+      "saveChanges": "Änderungen speichern"
+    }
+  },
+  "common": {
+    "approve": "Genehmigen",
+    "reject": "Ablehnen",
+    "view": "Anzeigen",
+    "edit": "Bearbeiten",
+    "delete": "Löschen",
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "confirm": "Bestätigen",
+    "search": "Suchen",
+    "filter": "Filtern",
+    "export": "Exportieren",
+    "loading": "Laden...",
+    "noData": "Keine Daten verfügbar"
+  },
+  "events": {
+    "townHall": "Vierteljährliche Betriebsversammlung",
+    "townHallDesc": "Vollversammlung - Hauptkonferenzraum",
+    "newHireOrientation": "Einführung neuer Mitarbeiter",
+    "newHireOrientationDesc": "{count} neue Mitarbeiter beginnen",
+    "benefitsDeadline": "Anmeldefrist für Zusatzleistungen",
+    "benefitsDeadlineDesc": "Offene Anmeldung endet um {time}"
+  },
+  "requestTypes": {
+    "annualLeave": "Jahresurlaub",
+    "expenseClaim": "Spesenabrechnung",
+    "trainingRequest": "Schulungsantrag"
+  },
+  "languages": {
+    "en": "Englisch",
+    "es": "Spanisch",
+    "fr": "Französisch",
+    "de": "Deutsch",
+    "zh": "Chinesisch",
+    "ja": "Japanisch"
+  },
+  "notifications": {
+    "title": "Benachrichtigungen",
+    "markAllRead": "Alle als gelesen markieren",
+    "viewAll": "Alle Benachrichtigungen anzeigen",
+    "empty": "Keine Benachrichtigungen",
+    "leaveRequest": "{name} hat einen Urlaubsantrag eingereicht",
+    "onboardingComplete": "{name} hat die Einarbeitung abgeschlossen",
+    "reviewDue": "Leistungsbeurteilung fällig für {name}",
+    "hoursAgo": "Vor {count}h",
+    "daysAgo": "Vor {count}T"
+  },
+  "confirmations": {
+    "approveRequest": "Möchten Sie diesen Antrag von {name} wirklich genehmigen?",
+    "rejectRequest": "Möchten Sie diesen Antrag von {name} wirklich ablehnen?"
+  }
+}

@@ -1,0 +1,317 @@
+{
+  "app": {
+    "name": "StaffHub",
+    "tagline": "Sistema de Gestión de Recursos Humanos"
+  },
+  "nav": {
+    "dashboard": "Panel de Control",
+    "employees": "Empleados",
+    "departments": "Departamentos",
+    "leave": "Solicitudes de Permiso",
+    "payroll": "Nómina",
+    "recruitment": "Reclutamiento",
+    "settings": "Configuración"
+  },
+  "header": {
+    "searchPlaceholder": "Buscar empleados, departamentos...",
+    "notifications": "Notificaciones"
+  },
+  "user": {
+    "role": {
+      "hrManager": "Gerente de RR.HH.",
+      "admin": "Administrador",
+      "employee": "Empleado"
+    }
+  },
+  "dashboard": {
+    "title": "Panel de Control",
+    "welcome": "Bienvenido de nuevo, {name}. Esto es lo que está pasando hoy.",
+    "stats": {
+      "totalEmployees": "Total de Empleados",
+      "onLeaveToday": "De Permiso Hoy",
+      "openPositions": "Puestos Vacantes",
+      "upcomingReviews": "Evaluaciones Próximas",
+      "thisMonth": "+{count} este mes",
+      "pendingApproval": "{count} pendiente de aprobación",
+      "newThisWeek": "{count} nuevos esta semana",
+      "nextDays": "Próximos {count} días"
+    },
+    "recentActivity": {
+      "title": "Actividad Reciente",
+      "viewAll": "Ver todo",
+      "submittedLeave": "{name} envió una solicitud de permiso para {dates}",
+      "completedOnboarding": "{name} completó la lista de incorporación",
+      "updatedContact": "{name} actualizó la información de contacto de emergencia",
+      "wasPromoted": "{name} fue ascendido a {position}",
+      "hoursAgo": "Hace {count} horas",
+      "yesterday": "Ayer",
+      "daysAgo": "Hace {count} días"
+    },
+    "upcomingEvents": {
+      "title": "Próximos Eventos",
+      "viewCalendar": "Ver calendario"
+    },
+    "pendingApprovals": {
+      "title": "Aprobaciones Pendientes",
+      "items": "{count} elementos",
+      "columns": {
+        "employee": "Empleado",
+        "requestType": "Tipo de Solicitud",
+        "details": "Detalles",
+        "submitted": "Enviado",
+        "actions": "Acciones"
+      }
+    }
+  },
+  "employees": {
+    "title": "Empleados",
+    "addEmployee": "+ Agregar Empleado",
+    "filters": {
+      "department": "Departamento",
+      "allDepartments": "Todos los Departamentos",
+      "status": "Estado",
+      "allStatus": "Todos los Estados",
+      "employmentType": "Tipo de Empleo",
+      "allTypes": "Todos los Tipos",
+      "fullTime": "Tiempo completo",
+      "partTime": "Tiempo parcial",
+      "contract": "Contrato"
+    },
+    "columns": {
+      "employee": "Empleado",
+      "employeeId": "ID de Empleado",
+      "department": "Departamento",
+      "position": "Puesto",
+      "status": "Estado",
+      "startDate": "Fecha de Inicio",
+      "actions": "Acciones"
+    },
+    "status": {
+      "active": "Activo",
+      "onLeave": "De Permiso",
+      "remote": "Remoto",
+      "terminated": "Terminado"
+    },
+    "pagination": {
+      "showing": "Mostrando {from}-{to} de {total} empleados"
+    }
+  },
+  "departments": {
+    "title": "Departamentos",
+    "addDepartment": "+ Agregar Departamento",
+    "stats": {
+      "employees": "Empleados",
+      "teams": "Equipos",
+      "openRoles": "Vacantes"
+    },
+    "names": {
+      "engineering": "Ingeniería",
+      "sales": "Ventas",
+      "marketing": "Marketing",
+      "finance": "Finanzas",
+      "humanResources": "Recursos Humanos",
+      "operations": "Operaciones",
+      "product": "Producto",
+      "customerSupport": "Atención al Cliente"
+    },
+    "titles": {
+      "vpEngineering": "VP de Ingeniería",
+      "salesDirector": "Director de Ventas",
+      "marketingDirector": "Director de Marketing",
+      "cfo": "Director Financiero",
+      "hrDirector": "Director de RR.HH.",
+      "coo": "Director de Operaciones"
+    }
+  },
+  "leave": {
+    "title": "Solicitudes de Permiso",
+    "newRequest": "+ Nueva Solicitud",
+    "summary": {
+      "pendingRequests": "Solicitudes Pendientes",
+      "awaitingApproval": "Esperando su aprobación",
+      "onLeaveToday": "De Permiso Hoy",
+      "acrossDepartments": "En todos los departamentos",
+      "upcomingLeave": "Permisos Próximos",
+      "nextDays": "Próximos {count} días"
+    },
+    "allRequests": "Todas las Solicitudes",
+    "tabs": {
+      "all": "Todas",
+      "pending": "Pendientes",
+      "approved": "Aprobadas",
+      "rejected": "Rechazadas"
+    },
+    "columns": {
+      "employee": "Empleado",
+      "leaveType": "Tipo de Permiso",
+      "startDate": "Fecha de Inicio",
+      "endDate": "Fecha de Fin",
+      "duration": "Duración",
+      "status": "Estado",
+      "actions": "Acciones"
+    },
+    "types": {
+      "annual": "Vacaciones Anuales",
+      "sick": "Permiso por Enfermedad",
+      "personal": "Permiso Personal",
+      "parental": "Permiso Parental",
+      "unpaid": "Permiso sin Sueldo"
+    },
+    "duration": {
+      "day": "{count} día",
+      "days": "{count} días"
+    },
+    "status": {
+      "pending": "Pendiente",
+      "approved": "Aprobado",
+      "rejected": "Rechazado"
+    }
+  },
+  "payroll": {
+    "title": "Nómina",
+    "runPayroll": "Ejecutar Nómina",
+    "summary": {
+      "currentPeriod": "Período de Pago Actual",
+      "totalPayroll": "Nómina Total",
+      "nextPayDate": "Próxima Fecha de Pago",
+      "directDeposit": "Depósito directo",
+      "fromLastPeriod": "{change} del período anterior"
+    },
+    "history": {
+      "title": "Historial de Nómina",
+      "exportReport": "Exportar Informe"
+    },
+    "columns": {
+      "payPeriod": "Período de Pago",
+      "payDate": "Fecha de Pago",
+      "employeesPaid": "Empleados Pagados",
+      "grossPay": "Pago Bruto",
+      "deductions": "Deducciones",
+      "netPay": "Pago Neto",
+      "status": "Estado"
+    },
+    "status": {
+      "processing": "Procesando",
+      "completed": "Completado",
+      "scheduled": "Programado"
+    }
+  },
+  "recruitment": {
+    "title": "Reclutamiento",
+    "postNewJob": "+ Publicar Nuevo Empleo",
+    "stats": {
+      "openPositions": "Puestos Vacantes",
+      "totalApplications": "Total de Aplicaciones",
+      "interviewsScheduled": "Entrevistas Programadas",
+      "offersExtended": "Ofertas Extendidas"
+    },
+    "openPositions": "Puestos Vacantes",
+    "columns": {
+      "position": "Puesto",
+      "department": "Departamento",
+      "location": "Ubicación",
+      "posted": "Publicado",
+      "applications": "Aplicaciones",
+      "status": "Estado",
+      "actions": "Acciones"
+    },
+    "status": {
+      "active": "Activo",
+      "interviewing": "Entrevistando",
+      "closed": "Cerrado",
+      "onHold": "En Espera"
+    }
+  },
+  "settings": {
+    "title": "Configuración",
+    "nav": {
+      "companyProfile": "Perfil de Empresa",
+      "userPreferences": "Preferencias de Usuario",
+      "notifications": "Notificaciones",
+      "security": "Seguridad",
+      "integrations": "Integraciones",
+      "billing": "Facturación"
+    },
+    "company": {
+      "title": "Información de la Empresa",
+      "name": "Nombre de la Empresa",
+      "industry": "Industria",
+      "size": "Tamaño de la Empresa",
+      "industries": {
+        "technology": "Tecnología",
+        "healthcare": "Salud",
+        "finance": "Finanzas",
+        "manufacturing": "Manufactura"
+      },
+      "sizes": {
+        "small": "1-50 empleados",
+        "medium": "51-200 empleados",
+        "large": "201-500 empleados",
+        "enterprise": "501-1000 empleados",
+        "corporate": "1000+ empleados"
+      }
+    },
+    "regional": {
+      "title": "Configuración Regional",
+      "timezone": "Zona Horaria",
+      "dateFormat": "Formato de Fecha",
+      "currency": "Moneda",
+      "language": "Idioma"
+    },
+    "actions": {
+      "cancel": "Cancelar",
+      "saveChanges": "Guardar Cambios"
+    }
+  },
+  "common": {
+    "approve": "Aprobar",
+    "reject": "Rechazar",
+    "view": "Ver",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "export": "Exportar",
+    "loading": "Cargando...",
+    "noData": "No hay datos disponibles"
+  },
+  "events": {
+    "townHall": "Reunión General Trimestral",
+    "townHallDesc": "Reunión general - Sala de Conferencias Principal",
+    "newHireOrientation": "Orientación de Nuevos Empleados",
+    "newHireOrientationDesc": "{count} nuevos empleados comienzan",
+    "benefitsDeadline": "Fecha Límite de Inscripción de Beneficios",
+    "benefitsDeadlineDesc": "La inscripción abierta cierra a las {time}"
+  },
+  "requestTypes": {
+    "annualLeave": "Vacaciones Anuales",
+    "expenseClaim": "Reclamo de Gastos",
+    "trainingRequest": "Solicitud de Capacitación"
+  },
+  "languages": {
+    "en": "Inglés",
+    "es": "Español",
+    "fr": "Francés",
+    "de": "Alemán",
+    "zh": "Chino",
+    "ja": "Japonés"
+  },
+  "notifications": {
+    "title": "Notificaciones",
+    "markAllRead": "Marcar todo como leído",
+    "viewAll": "Ver todas las notificaciones",
+    "empty": "Sin notificaciones",
+    "leaveRequest": "{name} envió una solicitud de permiso",
+    "onboardingComplete": "{name} completó la incorporación",
+    "reviewDue": "Evaluación de desempeño pendiente para {name}",
+    "hoursAgo": "Hace {count}h",
+    "daysAgo": "Hace {count}d"
+  },
+  "confirmations": {
+    "approveRequest": "¿Está seguro de que desea aprobar esta solicitud de {name}?",
+    "rejectRequest": "¿Está seguro de que desea rechazar esta solicitud de {name}?"
+  }
+}

@@ -1,0 +1,317 @@
+{
+  "app": {
+    "name": "StaffHub",
+    "tagline": "Système de Gestion des Ressources Humaines"
+  },
+  "nav": {
+    "dashboard": "Tableau de Bord",
+    "employees": "Employés",
+    "departments": "Départements",
+    "leave": "Demandes de Congé",
+    "payroll": "Paie",
+    "recruitment": "Recrutement",
+    "settings": "Paramètres"
+  },
+  "header": {
+    "searchPlaceholder": "Rechercher employés, départements...",
+    "notifications": "Notifications"
+  },
+  "user": {
+    "role": {
+      "hrManager": "Responsable RH",
+      "admin": "Administrateur",
+      "employee": "Employé"
+    }
+  },
+  "dashboard": {
+    "title": "Tableau de Bord",
+    "welcome": "Bon retour, {name}. Voici ce qui se passe aujourd'hui.",
+    "stats": {
+      "totalEmployees": "Total des Employés",
+      "onLeaveToday": "En Congé Aujourd'hui",
+      "openPositions": "Postes Ouverts",
+      "upcomingReviews": "Évaluations à Venir",
+      "thisMonth": "+{count} ce mois",
+      "pendingApproval": "{count} en attente d'approbation",
+      "newThisWeek": "{count} nouveaux cette semaine",
+      "nextDays": "Prochains {count} jours"
+    },
+    "recentActivity": {
+      "title": "Activité Récente",
+      "viewAll": "Voir tout",
+      "submittedLeave": "{name} a soumis une demande de congé pour {dates}",
+      "completedOnboarding": "{name} a terminé la liste d'intégration",
+      "updatedContact": "{name} a mis à jour les informations de contact d'urgence",
+      "wasPromoted": "{name} a été promu au poste de {position}",
+      "hoursAgo": "Il y a {count} heures",
+      "yesterday": "Hier",
+      "daysAgo": "Il y a {count} jours"
+    },
+    "upcomingEvents": {
+      "title": "Événements à Venir",
+      "viewCalendar": "Voir le calendrier"
+    },
+    "pendingApprovals": {
+      "title": "Approbations en Attente",
+      "items": "{count} éléments",
+      "columns": {
+        "employee": "Employé",
+        "requestType": "Type de Demande",
+        "details": "Détails",
+        "submitted": "Soumis",
+        "actions": "Actions"
+      }
+    }
+  },
+  "employees": {
+    "title": "Employés",
+    "addEmployee": "+ Ajouter un Employé",
+    "filters": {
+      "department": "Département",
+      "allDepartments": "Tous les Départements",
+      "status": "Statut",
+      "allStatus": "Tous les Statuts",
+      "employmentType": "Type d'Emploi",
+      "allTypes": "Tous les Types",
+      "fullTime": "Temps plein",
+      "partTime": "Temps partiel",
+      "contract": "Contrat"
+    },
+    "columns": {
+      "employee": "Employé",
+      "employeeId": "ID Employé",
+      "department": "Département",
+      "position": "Poste",
+      "status": "Statut",
+      "startDate": "Date de Début",
+      "actions": "Actions"
+    },
+    "status": {
+      "active": "Actif",
+      "onLeave": "En Congé",
+      "remote": "À Distance",
+      "terminated": "Terminé"
+    },
+    "pagination": {
+      "showing": "Affichage {from}-{to} sur {total} employés"
+    }
+  },
+  "departments": {
+    "title": "Départements",
+    "addDepartment": "+ Ajouter un Département",
+    "stats": {
+      "employees": "Employés",
+      "teams": "Équipes",
+      "openRoles": "Postes Ouverts"
+    },
+    "names": {
+      "engineering": "Ingénierie",
+      "sales": "Ventes",
+      "marketing": "Marketing",
+      "finance": "Finance",
+      "humanResources": "Ressources Humaines",
+      "operations": "Opérations",
+      "product": "Produit",
+      "customerSupport": "Support Client"
+    },
+    "titles": {
+      "vpEngineering": "VP Ingénierie",
+      "salesDirector": "Directeur Commercial",
+      "marketingDirector": "Directeur Marketing",
+      "cfo": "Directeur Financier",
+      "hrDirector": "Directeur RH",
+      "coo": "Directeur des Opérations"
+    }
+  },
+  "leave": {
+    "title": "Demandes de Congé",
+    "newRequest": "+ Nouvelle Demande",
+    "summary": {
+      "pendingRequests": "Demandes en Attente",
+      "awaitingApproval": "En attente de votre approbation",
+      "onLeaveToday": "En Congé Aujourd'hui",
+      "acrossDepartments": "Dans tous les départements",
+      "upcomingLeave": "Congés à Venir",
+      "nextDays": "Prochains {count} jours"
+    },
+    "allRequests": "Toutes les Demandes de Congé",
+    "tabs": {
+      "all": "Toutes",
+      "pending": "En Attente",
+      "approved": "Approuvées",
+      "rejected": "Refusées"
+    },
+    "columns": {
+      "employee": "Employé",
+      "leaveType": "Type de Congé",
+      "startDate": "Date de Début",
+      "endDate": "Date de Fin",
+      "duration": "Durée",
+      "status": "Statut",
+      "actions": "Actions"
+    },
+    "types": {
+      "annual": "Congé Annuel",
+      "sick": "Congé Maladie",
+      "personal": "Congé Personnel",
+      "parental": "Congé Parental",
+      "unpaid": "Congé sans Solde"
+    },
+    "duration": {
+      "day": "{count} jour",
+      "days": "{count} jours"
+    },
+    "status": {
+      "pending": "En Attente",
+      "approved": "Approuvé",
+      "rejected": "Refusé"
+    }
+  },
+  "payroll": {
+    "title": "Paie",
+    "runPayroll": "Exécuter la Paie",
+    "summary": {
+      "currentPeriod": "Période de Paie Actuelle",
+      "totalPayroll": "Paie Totale",
+      "nextPayDate": "Prochaine Date de Paie",
+      "directDeposit": "Virement direct",
+      "fromLastPeriod": "{change} par rapport à la période précédente"
+    },
+    "history": {
+      "title": "Historique de Paie",
+      "exportReport": "Exporter le Rapport"
+    },
+    "columns": {
+      "payPeriod": "Période de Paie",
+      "payDate": "Date de Paie",
+      "employeesPaid": "Employés Payés",
+      "grossPay": "Salaire Brut",
+      "deductions": "Déductions",
+      "netPay": "Salaire Net",
+      "status": "Statut"
+    },
+    "status": {
+      "processing": "En Cours",
+      "completed": "Terminé",
+      "scheduled": "Programmé"
+    }
+  },
+  "recruitment": {
+    "title": "Recrutement",
+    "postNewJob": "+ Publier une Offre",
+    "stats": {
+      "openPositions": "Postes Ouverts",
+      "totalApplications": "Total des Candidatures",
+      "interviewsScheduled": "Entretiens Programmés",
+      "offersExtended": "Offres Émises"
+    },
+    "openPositions": "Postes Ouverts",
+    "columns": {
+      "position": "Poste",
+      "department": "Département",
+      "location": "Lieu",
+      "posted": "Publié",
+      "applications": "Candidatures",
+      "status": "Statut",
+      "actions": "Actions"
+    },
+    "status": {
+      "active": "Actif",
+      "interviewing": "En Entretien",
+      "closed": "Fermé",
+      "onHold": "En Pause"
+    }
+  },
+  "settings": {
+    "title": "Paramètres",
+    "nav": {
+      "companyProfile": "Profil de l'Entreprise",
+      "userPreferences": "Préférences Utilisateur",
+      "notifications": "Notifications",
+      "security": "Sécurité",
+      "integrations": "Intégrations",
+      "billing": "Facturation"
+    },
+    "company": {
+      "title": "Informations sur l'Entreprise",
+      "name": "Nom de l'Entreprise",
+      "industry": "Secteur",
+      "size": "Taille de l'Entreprise",
+      "industries": {
+        "technology": "Technologie",
+        "healthcare": "Santé",
+        "finance": "Finance",
+        "manufacturing": "Industrie"
+      },
+      "sizes": {
+        "small": "1-50 employés",
+        "medium": "51-200 employés",
+        "large": "201-500 employés",
+        "enterprise": "501-1000 employés",
+        "corporate": "1000+ employés"
+      }
+    },
+    "regional": {
+      "title": "Paramètres Régionaux",
+      "timezone": "Fuseau Horaire",
+      "dateFormat": "Format de Date",
+      "currency": "Devise",
+      "language": "Langue"
+    },
+    "actions": {
+      "cancel": "Annuler",
+      "saveChanges": "Enregistrer les Modifications"
+    }
+  },
+  "common": {
+    "approve": "Approuver",
+    "reject": "Refuser",
+    "view": "Voir",
+    "edit": "Modifier",
+    "delete": "Supprimer",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "confirm": "Confirmer",
+    "search": "Rechercher",
+    "filter": "Filtrer",
+    "export": "Exporter",
+    "loading": "Chargement...",
+    "noData": "Aucune donnée disponible"
+  },
+  "events": {
+    "townHall": "Réunion Générale Trimestrielle",
+    "townHallDesc": "Réunion générale - Salle de Conférence Principale",
+    "newHireOrientation": "Orientation des Nouveaux Employés",
+    "newHireOrientationDesc": "{count} nouveaux employés débutent",
+    "benefitsDeadline": "Date Limite d'Inscription aux Avantages",
+    "benefitsDeadlineDesc": "L'inscription ouverte se termine à {time}"
+  },
+  "requestTypes": {
+    "annualLeave": "Congé Annuel",
+    "expenseClaim": "Note de Frais",
+    "trainingRequest": "Demande de Formation"
+  },
+  "languages": {
+    "en": "Anglais",
+    "es": "Espagnol",
+    "fr": "Français",
+    "de": "Allemand",
+    "zh": "Chinois",
+    "ja": "Japonais"
+  },
+  "notifications": {
+    "title": "Notifications",
+    "markAllRead": "Tout marquer comme lu",
+    "viewAll": "Voir toutes les notifications",
+    "empty": "Aucune notification",
+    "leaveRequest": "{name} a soumis une demande de congé",
+    "onboardingComplete": "{name} a terminé l'intégration",
+    "reviewDue": "Évaluation de performance en attente pour {name}",
+    "hoursAgo": "Il y a {count}h",
+    "daysAgo": "Il y a {count}j"
+  },
+  "confirmations": {
+    "approveRequest": "Êtes-vous sûr de vouloir approuver cette demande de {name} ?",
+    "rejectRequest": "Êtes-vous sûr de vouloir refuser cette demande de {name} ?"
+  }
+}
