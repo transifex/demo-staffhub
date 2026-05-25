@@ -1,66 +1,64 @@
 # StaffHub HR Demo
 
-This is a simple HR Management system demo. Follow the steps below to run it on your computer.
+A simple, interactive HR Management system dashboard. This guide will help you get it running on your computer and share it with others in just a few minutes.
 
-## How to Start the App
+## 🚀 Quick Start (Running Locally)
 
 ### 1. Prerequisites
-Make sure you have **Node.js** installed on your computer. You can download it from [nodejs.org](https://nodejs.org/).
+You need **Node.js** installed. If you don't have it, download the "LTS" version from [nodejs.org](https://nodejs.org/).
 
-### 2. Setup
-Open your terminal (Command Prompt or Terminal app) in this project folder and type:
+### 2. Setup the Project
+Open your terminal (or Command Prompt) and run these commands one by one:
 
 ```bash
+# Clone the repository
+git clone git@github.com:transifex/demo-staffhub.git
+
+# Go into the project folder
+cd demo-staffhub
+
+# Install the app (only needed once)
 npm install
-```
-This will download all the necessary files the app needs to run.
 
-### 3. Run the App
-Once the setup is finished, type:
-
-```bash
+# Start the app
 npm run dev
 ```
 
-### 4. View the App
-After running the command above, you will see a link like `http://localhost:5173/`. 
-**Copy and paste that link into your web browser** to see the StaffHub dashboard!
+### 3. View the App
+Once started, you will see a link like `http://localhost:5173/`. **Copy and paste that link into your web browser** to see the dashboard!
 
-## Pseudo-Language Deployment (Rigi Tokens)
+---
 
-To add the tokenized "Rigi Tokens" language to the app, follow these steps:
+## 🌍 How to share it (Using ngrok)
 
-### 1. Add the Language File
-Place your tokenized JSON file in the following directory:
-`src/locales/rigi.json`
+If you want to show this app to someone else over the internet:
 
-### 2. Register the Language
-Open `src/locales/index.js` and add the new language to the imports and exports:
+1. **Keep the app running** in your first terminal.
+2. Open a **second, new terminal** window.
+3. Run the following command (requires [ngrok](https://ngrok.com/download) installed):
 
-```javascript
-import en from './en.json';
-// ... other imports
-import rigi from './rigi.json'; // Add this
-
-export const translations = {
-  en,
-  // ... other translations
-  rigi // Add this
-};
-
-export const languageNames = {
-  en: 'English',
-  // ... other names
-  rigi: 'Rigi Tokens' // Add this
-};
+```bash
+ngrok http 5173
 ```
 
-### 3. Switch Language in App
-Once registered, you can select "Rigi Tokens" from the language selector in the **Settings** page of the app to see the tokenized strings.
+4. Ngrok will give you a "Forwarding" link (like `https://random-words.ngrok-free.app`). **Send that link to anyone** and they can see your app!
+
+---
+
+## 💎 Adding "Rigi Tokens" (Translation Files)
+
+The app is already configured to support **Rigi Tokens**. You don't need to change any code!
+
+1. Locate your tokenized JSON file.
+2. Open the file `src/locales/rigi.json` in this project.
+3. **Replace everything** inside that file with your own tokenized data.
+4. Save the file.
+5. In the app, go to **Settings > Language** and select **Rigi Tokens**.
+
+---
 
 ## What's inside?
 - **Dashboard:** Overview of company stats.
-- **Employees:** Manage your team.
+- **Employees:** Manage your team and status.
 - **Leave Requests:** Handle time-off applications.
-- **Payroll:** View salary information.
-- **Settings:** Change language and system preferences.
+- **Settings:** Easily switch between languages (including your custom Rigi Tokens).
