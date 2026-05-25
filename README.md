@@ -60,7 +60,7 @@ Before you can use the app, you need to generate your tokenized file:
 
 ### 2. Add the File to the App
 1. **Replace the existing file** at `src/locales/rigi.json` in this project with your newly downloaded file.
-2. That's it! In the app, go to **Settings > Language** and select **Rigi Tokens** to see your changes.
+2. Now you can capture previews (in rigi) by selecting the rigi tokens language in the app.
 
 ---
 
