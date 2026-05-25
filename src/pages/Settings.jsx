@@ -74,7 +74,7 @@ function Settings() {
               >
                 {availableLanguages.map((lang) => (
                   <option key={lang} value={lang}>
-                    {languageNames[lang]}
+                    {t('languages.' + lang) !== 'languages.' + lang ? t('languages.' + lang) : (languageNames[lang] || lang)}
                   </option>
                 ))}
               </select>

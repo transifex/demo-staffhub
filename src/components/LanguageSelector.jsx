@@ -41,15 +41,23 @@ const FlagDE = () => (
   </svg>
 );
 
+const FlagRigi = () => (
+  <svg viewBox="0 0 640 480" className="flag-icon">
+    <path fill="#541793" d="M320 40 L580 240 L320 440 L60 240 Z" />
+    <circle cx="320" cy="240" r="80" fill="#fff" opacity="0.5" />
+  </svg>
+);
+
 const languageFlags = {
   en: <FlagUS />,
   es: <FlagES />,
   fr: <FlagFR />,
-  de: <FlagDE />
+  de: <FlagDE />,
+  rigi: <FlagRigi />
 };
 
 function LanguageSelector() {
-  const { language, changeLanguage, availableLanguages } = useI18n();
+  const { t, language, changeLanguage, availableLanguages } = useI18n();
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef(null);
 
@@ -76,7 +84,7 @@ function LanguageSelector() {
         onClick={() => setIsOpen(!isOpen)}
         aria-label="Select language"
       >
-        <span className="language-flag">{languageFlags[language]}</span>
+        <span className="language-flag">{languageFlags[language] || '🌐'}</span>
         <span className="language-code">{language.toUpperCase()}</span>
         <span className="dropdown-arrow">▼</span>
       </button>
@@ -89,8 +97,8 @@ function LanguageSelector() {
               className={`language-option ${lang === language ? 'active' : ''}`}
               onClick={() => handleLanguageChange(lang)}
             >
-              <span className="language-flag">{languageFlags[lang]}</span>
-              <span className="language-name">{languageNames[lang]}</span>
+              <span className="language-flag">{languageFlags[lang] || '🌐'}</span>
+              <span className="language-name">{t('languages.' + lang) !== 'languages.' + lang ? t('languages.' + lang) : (languageNames[lang] || lang)}</span>
             </button>
           ))}
         </div>
